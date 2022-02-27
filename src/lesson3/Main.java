@@ -16,12 +16,18 @@ public class Main {
         Integer[] arr2 = {1, 2, 4};
         Integer[] arr3 = {1, 2, 3, 4, 5, 7, 8};
         Integer[] arr4 = {1, 2, 4, 5, 6, 7, 8};
+        Integer[] arr5 = {1, 2 ,3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16};
+        Integer[] arr6 = {1, 2, 4, 5, 6};
+        Integer[] arr7 = {};
 
         Map<Integer[], Integer> map = new HashMap<>();
         map.put(arr1, 3);
         map.put(arr2, 3);
         map.put(arr3, 6);
         map.put(arr4, 3);
+        map.put(arr5, 11);
+        map.put(arr6, 3);
+        map.put(arr7, 1);
 
         test(map);
     }
